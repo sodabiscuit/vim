@@ -193,6 +193,7 @@ else
 endif
 " }}}
 "syntax@file {{{
+syntax on
 filetype plugin on
 filetype indent on
 " }}}
