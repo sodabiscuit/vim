@@ -302,6 +302,3 @@ let g:vimwiki_list = [{'path': '~/Logs/vimwiki',
 let g:javascript_enable_domhtmlcss=1 " set js_dom_in_html syntax method
 au filetype javascript map <F5> :call JavascriptLint()<cr>
 " }}}
-"php@dev {{{
-au filetype php map <F5> :call PHPLint()<cr>
-" }}}
