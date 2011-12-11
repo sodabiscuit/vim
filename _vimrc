@@ -96,8 +96,13 @@ else
 endif
 " }}}
 "cursor_line_column@view {{{
+if has("gui_macvim")
+nmap <S-A-F11> :set cursorline!<BAR>set nocursorline?<CR>
+nmap <S-A-F12> :set cursorcolumn!<BAR>set nocursorcolumn?<CR>
+else
 nmap <S-F11> :set cursorline!<BAR>set nocursorline?<CR>
 nmap <S-F12> :set cursorcolumn!<BAR>set nocursorcolumn?<CR>
+endif
 " }}}
 "disable_mouse@global_keymaps {{{
 map <MiddleMouse> <Nop>
