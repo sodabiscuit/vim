@@ -286,15 +286,15 @@ if has("cscope")
 endif
 " }}}
 "vimviki@plugins {{{
-let g:vimwiki_menu = ''
-let g:vimwiki_use_mouse = 1
-let g:vimwiki_camel_case = 0
-let g:vimwiki_CJK_length = 1
-let g:vimwiki_list = [{'path': '~/Logs/vimwiki',
-                    \ 'path_html': '~/Logs/vimwiki/html',
-                    \ 'html_header': '~/Logs/vimwiki/template/header.tpl',
-                    \ 'html_footer': '~/Logs/vimwiki/template/footer.tpl',
-                    \ 'css_name': './assets/g.css',}]
+"let g:vimwiki_menu = ''
+"let g:vimwiki_use_mouse = 1
+"let g:vimwiki_camel_case = 0
+"let g:vimwiki_CJK_length = 1
+"let g:vimwiki_list = [{'path': '~/Logs/vimwiki',
+"                    \ 'path_html': '~/Logs/vimwiki/html',
+"                    \ 'html_header': '~/Logs/vimwiki/template/header.tpl',
+"                    \ 'html_footer': '~/Logs/vimwiki/template/footer.tpl',
+"                    \ 'css_name': './assets/g.css',}]
 " }}}
 "insert_close_tag@scripts {{{
 "if has('win32')
