@@ -305,8 +305,11 @@ endif
 " }}}
 "f2e@dev {{{
 let g:javascript_enable_domhtmlcss=1 " set js_dom_in_html syntax method
-au filetype javascript map <F5> :call JavascriptLint()<cr>
+au FileType javascript map <F5> :call JavascriptLint()<cr>
 " }}}
 "golang @dev {{{
-set rtp+=$GOROOT/misc/vim
+" set rtp+=$GOROOT/misc/vim
 " }}}
+"python @dev {{{
+au FileType python setl cursorline cursorcolumn
+"}}}
